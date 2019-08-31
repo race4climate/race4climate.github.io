@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css"/>
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+
+	<title>Race4Climate</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+	<!-- <script src="scripts.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+
+	<div class="container">
+		<!-- <p style="text-align: right;"><a href="index_fr.html">Français</a> -->
+		<!-- <h1>Race4Climate</h1> -->
+		<center><img src="static/race4climate.png" style="width:30%;"></center>
+		<div style="text-align: center;margin-bottom:50px">
+			<span class="dist_num" id="dist_num_id">0</span>km<br>
+			We are running for the climate.</p>
+			<center><a class="btn btn-outline-dark" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd4rveUhBYabolgiQLP0-F-8FNLfHhkbdyGW3d1Tqa4bVLEIA/viewform?fbzx=-8116091256307052861">Join the movement</a></center>
+			<center><a class="btn btn-outline-dark" href="https://www.gofundme.com/f/ironman-703-help-climate-emergencies">Donate</a></center>
+			<center><a class="btn btn-outline-dark" href="#contact">Contact</a></center>
+
+		    <script type="text/javascript">
+		        var $badge = $('#dist_num_id'); // cache
+		        setInterval(function () {
+		            var value = parseInt($badge.html());
+		            if (value < 131) {
+		                value += 1;
+		            }
+		            $badge.html(value);
+		        }, 20);
+		    </script>
+		</div>
+		<h2 class="margin-above">What is it?</h2>
+		<p>Race4Climate is a movement where people run, swim and bike to raise awarenes for climate change.</p>
+		<p>Race4Climate also raises funds for non-governmental organizations (currently for The Red Cross) for humanitarian relief in climate disaster areas.</p>
+		<p><b>Race4Climate is not for profit.</b>
+		<h2 class="margin-above">How does it work?</h2>
+		<p>You ask people to donate for climate change relief efforts.</p>
+		<p>For every 10$ you receive, you vow to swim 500m, run 1km or bike 10km.</p>
+		<h2 class="margin-above">Where do the funds go?</h2>
+		<p>The funds will go to The Red Cross' relief efforts in climate disaster torn regions for humanitarian aid, up on <a target="_blank" href="https://www.gofundme.com/f/ironman-703-help-climate-emergencies">our GoFundMe fundraiser</a>.</p>
+		<p>Race4Climate will be posting updates on Facebook on when funds will be delivered and how they are used.</p>
+		<h2 class="margin-above">How can I help?</h2>
+		<p>You can help raise funds by running for climate awareness! Just fill out <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd4rveUhBYabolgiQLP0-F-8FNLfHhkbdyGW3d1Tqa4bVLEIA/viewform?fbzx=-8116091256307052861">this 30 second form (click here!)</a> to register.</p>
+		<p>Next, be sure to share <a target="_blank" href="https://www.gofundme.com/f/ironman-703-help-climate-emergencies">Race4Climate's GoFundMe</a> so that people can donate.
+		<p>Aditionally, to have your distance added to our collective total, please email us proof of having completed your distance (screenshot of running app or photo of event) to race4climate@gmail.com</p>
+		<p>Don't forget to share your proud race moments with <b>#race4climate</b>.</p>
+		<h2 class="margin-above">Where can I donate?</h2>
+		<p>You can donate to <a target="_blank" href="https://www.gofundme.com/f/ironman-703-help-climate-emergencies">our official GoFundMe fundraiser for climate disaster relief (click here!)</a>.</p>
+		<h2 class="margin-above">When do I run my race and how long should it be?</h2>
+		<p>You decide when to run your race, though the sooner it is the better in order to gain momentum for Race4Climate.</p>
+		<p>Any distance is good, whether it is a 1km bike ride or an IRONMAN 70.3. We recommend you set a fundraising goal for your race, like as for every 10$ donated on your behalf you run 1 km.</p>
+		<h2 class="margin-above">How did this movement start?</h2>
+		<p>This started in August 2019 when a 17 year-old teenager from Montreal, Canada decided to run an Ironman 70.3 (113 km triathlon) to raise awarenes and funds for climate disaster relief.</p>
+		<p>The movement then spread to people of all ages and backgrounds, with the ultimate goal of assuring rapid response in climate related emergencies and in supporting environmental causes and movements across the Earth.</p>
+		<h2 class="margin-above" id="contact" >Contact Info</h2>
+		<p><b>Race4Climate</b></p>
+		<p>Email: race4climate@gmail.com
+		<br>Facebook: <a target="_blank" href="https://www.facebook.com/Race4Climate">Race4Climate</a></p>
+		<br>
+
+		<p><b>Laurence Liang (the 17 year-old who started it all)</b></p>
+		<img class="img-rounded" src="static/laurence_running.jpg" style="height: 300px">
+		<p>Email: laurencel2001@gmail.com
+		<br>Facebook: <a target="_blank" href="https://www.facebook.com/profile.php?id=100016184558761">Laurence Liang</a>
+		<br>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/laurence-liang-40b12514a/">Laurence Liang</a>
+
+</body>
+</html>
