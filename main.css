@@ -1,0 +1,46 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body{
+	font-size: 20px;
+	font-family: Arial;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h1{
+	font-weight: lighter;
+}
+
+h2{
+	font-weight: bold;
+}
+
+h5{
+	font-weight: bold;
+}
+
+.dist_num{
+	font-weight: bolder;
+	font-size: 90px;
+}
+
+p{
+	text-align: justify;
+}
+
+.margin-above{
+	margin-top: 40px;
+}
+
+.btn{
+	margin: 5px;
+}
+
+.img-rounded{
+	border-radius: 50%;
+	margin: 10px;
+}
